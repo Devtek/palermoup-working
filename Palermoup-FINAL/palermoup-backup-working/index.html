@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+
+	<head>
+
+		<title>PalermoUp</title>
+		<link rel="Shortcut Icon" href="favicon.ico"></link>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="ROBOTS" content="INDEX,FOLLOW">
+		<meta http-equiv="Reply-to" content="palermoup@gmail.com">
+		<!--<meta name="title" content="Palermoup Aggiornamenti su Palermo per i Palermitani">
+		<meta name="description" content=" Aggiornamenti su Palermo">
+		<meta name="keywords" content="Palermo città gente Palermitani">-->
+		<meta name="author" content="Antonio Giulino">
+		<meta name="copyright" content="Antonio Giuliano">
+		<!--<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />-->
+		<link rel="stylesheet" href="css/newsupersized.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		
+		<!--<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>-->
+		<script type="text/javascript" src="js/supersized_anto.js"></script>
+		
+		<script type="text/javascript">
+			
+			jQuery(function($){
+				
+				$.supersized({
+				
+					// Functionality
+					slide_interval          :   6500,		// Length between transitions
+					transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	700,		// Speed of transition
+															   
+					// Components							
+					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+					slides 					:  	[			// Slideshow Images
+														{image : 'uno.jpg', title : 'For Free' },
+														{image : 'due.jpg', title : 'Fotografia: A. Leto'},  
+														{image : 'quattro.jpg', title : 'Fotografia: V. Albano'}
+														
+												]
+					
+				});
+		    });
+		    
+		</script>
+		
+	</head>
+	
+	<style type="text/css">
+			
+	</style>
+
+<body>
+	<!--Demo styles (you can delete this block)-->
+		<!--Slide captions displayed here
+			<div id="slidecaption"></div>-->
+	
+	<div style="float:left; margin:15px auto; width:100%; text-align:center; ">
+	<img src="logoworking.png" width="600" height="200" alt="Palermo up" />
+	<div style="z-index:5; position:fixed; bottom:40px; left:43%; height:40px; width:16%; color:#fafdff; background: url('img/progress-back.png') repeat; border-radius:5px;">
+	AMUN&igrave; PICCA MANCA ! 
+	</br>
+	<div id="slidecaption"></div>
+	</div> 
+	</div>
+	<!--End of styles-->
+
+	<!--Thumbnail Navigation-->
+	<div id="prevthumb"></div>
+	<div id="nextthumb"></div>
+	
+	<!--Arrow Navigation-->
+	<a id="prevslide" class="load-item"></a>
+	<a id="nextslide" class="load-item"></a>
+	
+	<div id="thumb-tray" class="load-item">
+		<div id="thumb-back"></div>
+		<div id="thumb-forward"></div>
+	</div>
+	
+	<!--Time Bar-->
+	<div id="progress-back" class="load-item">
+		<div id="progress-bar"></div>
+	</div>
+		
+
+</body>
+</html>
